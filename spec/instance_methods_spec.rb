@@ -43,7 +43,7 @@ describe 'Person' do
 
   describe '#talk' do
     it 'responds to the #talk instance method' do
-      ada = Person.new
+    ada = Person.new
       expect(ada).to respond_to(:talk)
     end
 
